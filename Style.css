@@ -9,7 +9,6 @@ src: url('Police/raleway/Raleway-light.ttf');
 body{
     margin: auto;
     max-width: 1440px;
-    flex-wrap: wrap;
     font-family: raleway;}
 /*en tête*/
 header{
@@ -111,8 +110,7 @@ a:hover{
     display: flex;
     align-items: center;}
 .text_resultat_recherche{
-    margin-left: 20px;
-    align-items: center;}
+    margin-left: 20px;}
 .icone_resultat_recherche{
     border: solid 1px #DEEBFF;
     width: 30px;
