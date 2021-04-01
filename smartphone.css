@@ -55,25 +55,19 @@ a:hover{
     justify-content: center;}
 
 
-
-
-
 /*zone de filtre*/
 .section_filtre{
     flex-direction: column;
+    height: auto;
     align-items: flex-start;}
 .ensemble_filtre{
     align-items: flex-start;
     flex-direction: column;
-    background-color: darkred;}
-
-
-
-
-    /*hébergement a Marseille*/
+    width: 100%;}
+/*hébergement a Marseille*/
 
 #hebergements{
-    background-color: yellow;
+    background-color: white;
     border-radius: 30px;
     grid-template-columns: 1fr;
     justify-content: center;}
@@ -92,72 +86,45 @@ a:hover{
     border-radius: 30px;
     float: none;
     flex-direction: column;
-    margin-left: 2rem;}
+    margin-left: 2rem;
+    margin-right: 2rem;}
 
 
 /*Section Activités a Marseille*/
+
+#activites{
+    width: auto;
+    height: auto;
+    margin-top: 40px;}
 .grille_activite{
-    display: grid;
-    grid-template-columns:  1fr;
-    grid-template-rows: repeat(6 auto);
-    row-gap: 2rem;}
+    display: flex;
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: center;
+    height: auto;
+    row-gap: 2rem;
+    flex-direction: column;}
+.activite_un{
+    width: auto;
+    height: 200px;}
+.activite_deux{
+    width: auto;
+    height: 200px;}
+.activite_trois{
+    width: auto;
+    height: 200px;}
+.activite_quatre{
+    width: auto;
+    height: 200px;}
+.activite_cinq{
+    width: auto;
+    height: 200px;}
+.activite_six{
+    width: auto;
+    height: 200px;}
 
-    .activite_un{
-        display: flex;
-        width: auto;
-        height: 450px;
-        background-image: url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
-        background-position: center;
-        background-size: cover;
-        border-radius: 20px;
-        box-shadow: 3px 3px 3px #a1a1a1;}
-    .activite_deux{
-        display: flex;
-        width: auto;
-        height: 240px;
-        background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
-        background-position: center;
-        background-size: cover;
-        border-radius: 20px;
-        box-shadow: 3px 3px 3px #a1a1a1;}
-    .activite_trois{
-        display: flex;
-        width: auto;
-        height: 450px;
-        background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
-        background-position: center;
-        background-size: cover;
-        border-radius: 20px;
-        box-shadow: 3px 3px 3px #a1a1a1;}
-    .activite_quatre{
-        display: flex;
-        width: auto;
-        height: 200px;
-        background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
-        background-position: center;
-        background-size: cover;
-        border-radius: 20px;
-        box-shadow: 3px 3px 3px #a1a1a1;}
-    .activite_cinq{
-        display: flex;
-        width: auto;
-        height: 160px;
-        background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
-        background-position: center;
-        background-size: cover;
-        border-radius: 20px;
-        box-shadow: 3px 3px 3px #a1a1a1;}
-    .activite_six{
-        display: flex;
-        width: auto;
-        height: 210px;
-        background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
-        background-position: center;
-        background-size: cover;
-        border-radius: 20px;
-        box-shadow: 3px 3px 3px #a1a1a1;}
-
-
+/*Footer*/
 footer{
     width: auto;
     height: auto;
@@ -165,14 +132,12 @@ footer{
     flex-direction: column;
     margin-top: 20px;}
 .a_propos{
-    display: flex;
-    flex-direction: column;}
+    padding-left: 30px;
+    list-style: none;}
 .nos_hebergements{
-    display: flex;
-    flex-direction: column;
-    padding: 0;}
+    padding-left: 30px;
+    list-style: none;}
 .assistance{
-    display: flex;
-    flex-direction: column;
-    padding: 0;}
+    padding-left: 30px;
+    list-style: none;}
 }

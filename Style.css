@@ -8,6 +8,7 @@ src: url('Police/raleway/Raleway-light.ttf');
 
 body{
     margin: auto;
+    width: 80%;
     max-width: 1440px;
     font-family: raleway;}
 /*en tête*/
@@ -17,8 +18,7 @@ header{
     margin: auto;
     grid-template-columns: auto 1fr auto auto;}
 .logo{
-    max-width: 100%;
-}
+    max-width: 100%;}
 .menu{
     display: flex;
     grid-column-start: 3;
@@ -28,7 +28,8 @@ header{
 .menu a{
     text-decoration: none;}
 .menu_activites{
-    padding-left: 20px;}
+    padding-left: 20px;
+    padding-right: 20px;}
 .inscription{
     display: flex;
     align-items: center;
@@ -36,7 +37,8 @@ header{
     margin-left: 20px;}
 a:hover{
     color:royalblue;
-    border-top: solid 2px royalblue;}
+    border-top: solid 2px royalblue;
+}
 .titre_header{
     font-size: 30px;
     font-weight: bolder;}
@@ -77,12 +79,13 @@ a:hover{
 /*zone de filtre*/
 .section_filtre{
     display: flex;
-    align-items: center;
-    height: 50px;
+    flex-direction: column;
+    height: 100%;
     margin-top: 20px;
     margin-bottom: 30px;}
 .ensemble_filtre{
-    display: flex;} 
+    display: flex;
+    align-items: center;} 
 .filtre{
     display: flex;
     height: 50px;
@@ -128,7 +131,6 @@ a:hover{
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;}
 .titre_section{
     display: flex;
@@ -138,10 +140,9 @@ a:hover{
 .grille{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 2rem;
-    column-gap: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem}
+    grid-gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px}
 .grey_star .fas.fa-star{
     color: #D9D9D9;}
 img{
@@ -197,8 +198,9 @@ img{
     flex-direction: column;
     margin-left: 2rem;}
 .grille_populaire{
-    height: 100%;
+    height: auto;
     display: flex;
+    row-gap: 20px;
     flex-direction: column;
     padding-bottom: 30px;}
 .populaire_un,.populaire_deux,.populaire_trois{
@@ -209,9 +211,9 @@ img{
     align-items: center;
     border-radius: 20px;
     align-self: center;
-    margin-top: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;}
+
+    margin-left: 20px;
+    margin-right: 20px;}
 .image_populaire{
     border-radius: 20px 0px 0px 20px;
     max-width: 100%;
@@ -228,14 +230,14 @@ img{
 
 /*Section Activités a Marseille*/
 #activites{
-    width: auto;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     margin-top: 40px;}
 .grille_activite{
     display: grid;
+    column-gap: 20px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 240px 50px 180px;
-    justify-content: space-between;}
+    grid-template-rows: 240px 50px 180px;}
 .text_activite{
     height: 50px;
     width: 100%;
@@ -247,7 +249,7 @@ img{
 .activite_un{
     display: flex;
     align-items: flex-end;
-    width: 300px;
+    width: auto;
     height: 450px;
     background-image: url(images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
     background-position: center;
@@ -257,7 +259,7 @@ img{
 .activite_deux{
     display: flex;
     align-items: flex-end;
-    width: 300px;
+    width: auto;
     height: 240px;
     background-image: url(images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
     background-position: center;
@@ -267,7 +269,7 @@ img{
 .activite_trois{
     display: flex;
     align-items: flex-end;
-    width: 300px;
+    width: auto;
     height: 450px;
     background-image: url(images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
     background-position: center;
@@ -277,7 +279,7 @@ img{
 .activite_quatre{
     display: flex;
     align-items: flex-end;
-    width: 300px;
+    width: auto;
     height: 200px;
     background-image: url(images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
     background-position: center;
@@ -287,7 +289,7 @@ img{
 .activite_cinq{
     display: flex;
     align-items: flex-end;
-    width: 300px;
+    width: auto;
     height: 160px;
     background-image: url(images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
     background-position: center;
@@ -299,7 +301,7 @@ img{
 .activite_six{
     display: flex;
     align-items: flex-end;
-    width: 300px;
+    width: auto;
     height: 210px;
     background-image: url(images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
     background-position: center;
@@ -307,48 +309,21 @@ img{
     grid-column-start: 4;
     border-radius: 20px;
     box-shadow: 3px 3px 3px #a1a1a1;}
+
 footer{
     width: auto;
-    height: 200px;
+    height: auto;
+    display: flex;
     background-color: #F2F2F2;
-    display: flex;
-    margin-top: 20px;}
-.a_propos{
-    display: flex;
-    flex-direction: column;}
-.nos_hebergements{
+    padding: 0px;}
+
+.bloc_footer{
     display: flex;
     flex-direction: column;
-    padding-left: 150px;}
-.assistance{
-    display: flex;
-    flex-direction: column;
-    padding-left: 150px;}
+    list-style: none;
+    padding-right: 200px;}
+
+.bloc_footer p{
+    margin: 0px}
 }
 /*fin en tête*/
-
-
-/* Style du site Reservia téléphone */
-@media screen and (max-width: 600px){
-
-header {
-    display: grid;
-    align-items: center;
-    margin: auto;
-    grid-template-columns: auto  1fr auto;
-    grid-template-rows: auto;
-    background-color: red;}
-
-.menu{
-    display: grid;
-    list-style: none;
-    align-items: center;
-    justify-content: center;
-    background-color: green;}
-.grille_activite{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 240px);
-    row-gap: 2rem;
-    justify-content: space-between;}
-}
