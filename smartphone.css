@@ -54,6 +54,12 @@ a:hover{
 .ensemble_recherche{
     justify-content: center;}
 
+.fas.fa-search{
+    display: initial;}
+
+.rechercher{
+    display: none;
+}
 
 /*zone de filtre*/
 .section_filtre{

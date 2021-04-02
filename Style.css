@@ -74,6 +74,8 @@ a:hover{
     color: white;
     font-size: 15px;
     font-weight: bolder;}
+.fas.fa-search{
+    display: none;}
 /*fin de barre de recherche*/
 
 /*zone de filtre*/
