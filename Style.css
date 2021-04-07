@@ -168,20 +168,22 @@ a{
 .titre_section{
     display: flex;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
     justify-content: space-between;}
 .grille{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 200px 200px;
     grid-gap: 20px;
     padding: 20px;}
 
 .carte_hebergement{
+    padding: 4px;
     border-radius: 20px;
-    box-shadow: 3px 3px 3px #a1a1a1;
+    background-color: white;
+    box-shadow: 4px 4px 4px 4px #c5c5c5;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -193,35 +195,36 @@ a{
     flex: 1;
     text-decoration: none;}
 .image_hebergement{
-    height: 100%;
+    height: 115px;
     width: 100%;
-    object-fit: cover;}
-    
-.bloc_hebergement a{
-    text-decoration: none;}
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;}
 
 .legend_appart{
     display: flex;
     height: auto;
-    padding: 10px;
+    padding: 4px;
     flex-direction: column;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
     border-radius: 0px 0px 20px 20px;}
-.titre_grille{
+.titre_carte{
     height: 20px;
     width: 250px;
     font-weight: bolder;
     margin: 0px;
-    color: black;
-    padding-left: 20px;}
+    color: inherit;
+    font-size: 12px;
+    padding-left: 10px;}
 .tarif{
     height: 20px;
-    font-size: 15px;
+    font-size: 12px;
     width: 250px;
     margin: 0px;
-    color: black;
-    padding-left: 20px;}
+    color: inherit;
+    padding-left: 10px;}
 .icone_avis{
     height: 20px;
     display: flex;
@@ -240,40 +243,43 @@ a{
     width: 30%;
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
-    padding: 20px;}
+    margin-left: 30px;}
 #grille_populaire{
     display: flex;
-    flex-direction: column;}
-.bloc_populaire{
+    flex-direction: column;
+    padding: 20px;}
+.box_populaire{
     background-color: white;
-    height: 150px;
+    height: 140px;
     display: flex;
     align-items: center;
     text-decoration: none;
     border-radius: 20px;
-    margin: 10px;
-    padding: 4px;}
+    margin-bottom: 20px;
+    padding: 4px;
+    box-shadow: 4px 4px 4px #c5c5c5}
 .image_populaire{
     border-radius: 20px 0px 0px 20px;
-    max-width: 50%;
+    max-width: 40%;
     max-height: 100%;
     height: 100%;
     width: 100%;
-    object-fit: cover;
-    padding-left: 5px;}
+    object-fit: cover;}
 .texte_populaire{
     display: flex;
     flex-direction: column;
-    margin: 0px;}
+    margin: 0px;
+    font-size: 12px;}
 .titre_populaire{
-    padding-left: 20px;
-    color: black;
-    margin: 0px;}
+    padding-left: 10px;
+    color: inherit;
+    margin: 0px;
+    font-size: 12px;}
 .tarif_populaire{
-    padding-left: 20px;
+    padding-left: 10px;
     margin-top: 0px;
-    color: black;}
+    font-size: 12px;
+    color: inherit;}
 /*fin de section les plus populaire*/
 
 /*Section Activités a Marseille*/
@@ -347,8 +353,7 @@ a{
     grid-row: 3/6;}
 
 .titre_activite{
-    margin: 20px;
-}
+    margin: 20px;}
 
 footer{
     width: auto;
@@ -365,5 +370,5 @@ footer{
 
 .bloc_footer p{
     margin: 0px}
-}
+
 /*fin en tête*/

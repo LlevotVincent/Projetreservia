@@ -2,13 +2,9 @@
 
 @media screen and (max-width: 767px){
 
-@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap%27);
-}
-
 body{
     width: 80%;
-    margin:auto;
-}
+    margin:auto;}
 /*section header*/
 header {
     display: grid;
@@ -20,9 +16,7 @@ header {
     "menu menu";}
 
 .logo{
-    grid-area: "logo";
-    height: 60%;
-}
+    height: 60%;}
 .menu{
     display: flex;
     list-style: none;
@@ -42,7 +36,6 @@ header {
     align-items: center;
     justify-content: center;}
 .inscription{
-    grid-area: "inscription";
     justify-content: flex-end;
     padding-right: 40px;
     color:royalblue;
@@ -51,7 +44,6 @@ header {
     color:royalblue;
     border-bottom: solid 4px royalblue;
     border-top: none;}
-
 /*Fin section header*/
 
 /*barre de recherche*/
@@ -74,11 +66,9 @@ header {
     width: 100%;}
 .filtre{
     margin: 10px;
-    margin-right: 150px;
-}
+    margin-right: 150px;}
 
 /*hébergement a Marseille*/
-
 #hebergements{
     border-radius: 30px;
     display: flex;
@@ -90,7 +80,7 @@ header {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    background-color: white;}
+    background-color:white;}
 .grille{
     display: flex;
     flex-direction: column;
@@ -110,7 +100,6 @@ header {
     padding: 0px;
     margin: 0px;}
 #grille_populaire{
-    width: 100%;
     display: flex;}
 .image_populaire{
     border-radius: 20px 0px 0px 20px;
@@ -124,11 +113,9 @@ header {
     flex-wrap: wrap;
     padding-left: 20px;
     margin: 0px;
-    color: black;}
-
+    color: inherit;}
 
 /*Section Activités a Marseille*/
-
 #activites{
     width: auto;
     height: auto;

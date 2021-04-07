@@ -4,8 +4,7 @@
 {
 body{
     width: 80%;
-    margin:auto;
-    background-color: red;}
+    margin:auto;}
 /*section header*/
 header {
     display: grid;
@@ -17,7 +16,6 @@ header {
     "menu menu";}
 
 .logo{
-    grid-area: "logo";
     height: 60%;}
 .menu{
     display: flex;
@@ -38,7 +36,6 @@ header {
     align-items: center;
     justify-content: center;}
 .inscription{
-    grid-area: "inscription";
     justify-content: flex-end;
     padding-right: 40px;
     color:royalblue;
@@ -85,14 +82,13 @@ header {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    background-color: white;}
+    background-color: #F2F2F2;}
 .grille{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;}
-.carte_hebergement{
-    height: 200px;}
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 20px;
+    padding: 20px;}
 
 /*Section les plus populaire*/
 #populaire{
@@ -105,7 +101,6 @@ header {
     padding: 0px;
     margin: 0px;}
 #grille_populaire{
-    width: 100%;
     display: flex;}
 .image_populaire{
     border-radius: 20px 0px 0px 20px;
@@ -135,27 +130,27 @@ header {
 .activite_un{
     margin-top: 20px;
     width: auto;
-    height: 200px;}
+    height: 250px;}
 .activite_deux{
     margin-top: 20px;
     width: auto;
-    height: 200px;}
+    height: 250px;}
 .activite_trois{
     margin-top: 20px;
     width: auto;
-    height: 200px;}
+    height: 250px;}
 .activite_quatre{
     margin-top: 20px;
     width: auto;
-    height: 200px;}
+    height: 250px;}
 .activite_cinq{
     margin-top: 20px;
     width: auto;
-    height: 200px;}
+    height: 250px;}
 .activite_six{
     margin-top: 20px;
     width: auto;
-    height: 200px;}
+    height: 250px;}
 
 /*Footer*/
 footer{
