@@ -1,15 +1,12 @@
 /* Style du site Reservia */
 
-@font-face 
-{
-font-family: 'raleway';
-src: url('Police/raleway/Raleway-light.ttf');
-}
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap%27);
 
 body{
     margin: auto;
-    max-width: 1400px;
-    font-family: raleway;}
+    width: 80%;
+    max-width: 1200px;
+    font-family: raleway, sans-serif;}
 /*en tête*/
 header{
     display: grid;
@@ -27,18 +24,33 @@ header{
 a{
     text-decoration: none;
     color: inherit;}
-.menu_activites{
-    padding-left: 20px;
-    padding-right: 20px;}
-.inscription{
+.menu_hebergement{
     display: flex;
     align-items: center;
+    color: royalblue;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bolder;}
+.menu_activites{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-left: 60px;
+    padding-right: 40px;
+    color: royalblue;
+    font-size: 20px;
+    font-weight: bolder;}
+.inscription{
+    display: flex;
+    color: royalblue;
+    align-items: center;
     margin-right: 20px;
-    margin-left: 20px;}
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 20px;}
 .menu a:hover{
     color:royalblue;
-    border-top: solid 2px royalblue;
-}
+    border-top: solid 4px royalblue;}
 .titre_header{
     font-size: 30px;
     font-weight: bolder;}
@@ -62,7 +74,7 @@ a{
     justify-content: center;
     align-items: center;}
 .Barre_de_recherche{
-    width: 200px;
+    width: 300px;
     border: solid 1px;
     border-color:#F2F2F2;}
 .bouton_de_recherche{
@@ -74,6 +86,14 @@ a{
     color: white;
     font-size: 15px;
     font-weight: bolder;}
+.icone_recherche{
+    background-color: #0065FC;
+    border: hidden;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    display: none;
+}
 .fas.fa-search{
     display: none;}
 /*fin de barre de recherche*/
@@ -89,6 +109,8 @@ a{
     display: flex;
     flex-wrap: wrap;
     align-items: center;} 
+.ensemble_filtre :hover {
+    background-color: #DEEBFF}
 .filtre{
     display: flex;
     height: 50px;
@@ -111,7 +133,8 @@ a{
     border-radius: 100%;
     height: 50px;
     width: 50px;
-    color: #0065FC;}
+    color: #0065FC;
+    margin: -2px;}
 .resultat_recherche{
     display: flex;
     align-items: center;}
@@ -140,7 +163,8 @@ a{
     border-radius: 30px;
     width: 70%;
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    margin: 0px;}
 .titre_section{
     display: flex;
     font-weight: bolder;
@@ -151,36 +175,37 @@ a{
 .grille{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px 250px;
     grid-gap: 20px;
-    padding-left: 20px;
-    padding-right: 20px}
-.grey_star .fas.fa-star{
-    color: #D9D9D9;}
-.image_hebergement{
-    height: 150px;
-    max-height: 100%;
-    max-width: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;}
-.bloc_hebergement{
-    width: auto;
-    height: 250px;
+    padding: 20px;}
+
+.carte_hebergement{
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #a1a1a1;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    border: solid 4px white;
-    border-radius: 20px;
-    box-shadow: 3px 3px 3px #d6d6d6;
-    background-color: white;}
+    justify-content: flex-end;}
+
+.box_hebergement{
+    max-width: 100%;
+    max-height: 100%;
+    flex: 1;
+    text-decoration: none;}
+.image_hebergement{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;}
+    
 .bloc_hebergement a{
     text-decoration: none;}
+
 .legend_appart{
     display: flex;
-    width: 250px;
+    height: auto;
+    padding: 10px;
     flex-direction: column;
     justify-content: space-between;
-    height: 80px;
     background-color: rgb(255, 255, 255);
     border-radius: 0px 0px 20px 20px;}
 .titre_grille{
@@ -205,6 +230,8 @@ a{
     list-style: none;
     color: inherit;
     color: blue;}
+.grey_star .fas.fa-star{
+    color: #D9D9D9;}
 
 /*Section les plus populaire*/
 #populaire{
@@ -237,12 +264,15 @@ a{
     padding-left: 5px;}
 .texte_populaire{
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    margin: 0px;}
 .titre_populaire{
     padding-left: 20px;
-    color: black;}
+    color: black;
+    margin: 0px;}
 .tarif_populaire{
     padding-left: 20px;
+    margin-top: 0px;
     color: black;}
 /*fin de section les plus populaire*/
 

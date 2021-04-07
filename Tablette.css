@@ -1,14 +1,11 @@
-/* Style du site Reservia smartphone*/
+/* Style du site Reservia tablette*/
 
-@media screen and (max-width: 767px){
-
-@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap%27);
-}
-
+@media screen and (min-width: 768px) and (max-width: 992px)
+{
 body{
     width: 80%;
     margin:auto;
-}
+    background-color: red;}
 /*section header*/
 header {
     display: grid;
@@ -21,8 +18,7 @@ header {
 
 .logo{
     grid-area: "logo";
-    height: 60%;
-}
+    height: 60%;}
 .menu{
     display: flex;
     list-style: none;
@@ -74,9 +70,8 @@ header {
     width: 100%;}
 .filtre{
     margin: 10px;
-    margin-right: 150px;
+    margin-right: 0px;
 }
-
 /*hébergement a Marseille*/
 
 #hebergements{
