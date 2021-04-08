@@ -72,6 +72,7 @@ header {
     align-items: center;}
 #hebergements_marseille{
     border-radius: 30px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -83,7 +84,7 @@ header {
     align-items: center;
     padding: 0px;}
 .carte_hebergement{
-    height: 200px;}
+    width: 100%;}
 
 /*Section les plus populaire*/
 #populaire{
