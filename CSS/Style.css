@@ -5,7 +5,12 @@
     src: url("/Police/raleway/Raleway-SemiBold.ttf");
    }
 
-
+body{
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+    font-family: raleway, sans-serif;}
+    
 /*en tête*/
 header{
     display: grid;
