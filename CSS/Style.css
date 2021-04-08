@@ -362,15 +362,15 @@ footer{
     height: auto;
     display: flex;
     background-color: #F2F2F2;
-    padding: 0px;}
+    margin-top: 20px;}
 
 .bloc_footer{
     display: flex;
     flex-direction: column;
     list-style: none;
-    padding-right: 200px;}
+    padding-right: 150px;}
 
 .bloc_footer p{
-    margin: 0px}
+    margin: 10px}
 
 /*fin en tête*/
