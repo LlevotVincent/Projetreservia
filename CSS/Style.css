@@ -1,6 +1,9 @@
 /* Style du site Reservia */
 
-@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap%27);
+@font-face {
+    font-family: "raleway, sans-serif";
+    src: url("/Police/raleway/Raleway-SemiBold.ttf");
+   }
 
 body{
     margin: auto;
@@ -129,7 +132,7 @@ a{
     align-items: center;
     background-color: #DEEBFF;
     border: solid 2px;
-    border-color:#DEEBFF;
+    border-color:#dbe8fb;
     border-radius: 100%;
     height: 50px;
     width: 50px;
