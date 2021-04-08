@@ -15,15 +15,18 @@ header{
     display: grid;
     align-items: center;
     margin: auto;
-    grid-template-columns: auto 1fr auto auto;}
+    grid-template-columns: auto 1fr auto auto;
+    padding-top: 30px;}
 .logo{
-    max-width: 100%;}
+    width: auto;
+    height: 60px;}
 .menu{
     display: flex;
     grid-column-start: 3;
     height: 60px;
     list-style: none;
-    align-items: center;}
+    align-items: center;
+    font-family: raleway, sans-serif;}
 a{
     text-decoration: none;
     color: inherit;}
@@ -154,13 +157,12 @@ a{
     color: #0065FC;}
 
 
-
+/*hébergement a Marseille*/
 #hebergements{
     display: flex;
     width: 100%;
     flex-direction: row-reverse;}
 
-/*hébergement a Marseille*/
 #hebergements_marseille{
     background-color: #F2F2F2;
     border-radius: 30px;
@@ -191,6 +193,10 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;}
+
+.carte_hebergement:hover{
+    box-shadow: 8px 8px 8px 8px #c5c5c5;}
+
 .box_hebergement{
     max-width: 100%;
     max-height: 100%;
@@ -260,6 +266,8 @@ a{
     margin-bottom: 20px;
     padding: 4px;
     box-shadow: 4px 4px 4px #c5c5c5}
+.box_populaire:hover{
+    box-shadow: 8px 8px 8px 8px #c5c5c5;}
 .image_populaire{
     border-radius: 20px 0px 0px 20px;
     max-width: 40%;
@@ -305,7 +313,6 @@ a{
     height: 100%;
     width: 100%;
     object-fit: cover;}
-
 .activite_un{
     border-radius: 20px;
     box-shadow: 3px 3px 3px #a1a1a1;
@@ -313,6 +320,8 @@ a{
     display: flex;
     flex-direction: column;
     grid-row: 1/6;}
+.activite_un:hover{
+    box-shadow: 8px 8px 8px 8px #c5c5c5;}
 
 .activite_deux{
     border-radius: 20px;
@@ -321,6 +330,8 @@ a{
     display: flex;
     flex-direction: column;
     grid-row: 1/4;}
+.activite_deux:hover{
+    box-shadow: 8px 8px 8px 8px #c5c5c5;}
 
 .activite_trois{
     border-radius: 20px;
@@ -329,6 +340,8 @@ a{
     display: flex;
     flex-direction: column;
     grid-row: 1/6;}
+.activite_trois:hover{
+    box-shadow: 8px 8px 8px 8px #c5c5c5;}
 
 .activite_quatre{
     border-radius: 20px;
@@ -337,6 +350,8 @@ a{
     display: flex;
     flex-direction: column;
     grid-row: 1/2;}
+.activite_quatre:hover{
+    box-shadow: 8px 8px 8px 8px #c5c5c5;}
 
 .activite_cinq{
     border-radius: 20px;
@@ -345,6 +360,8 @@ a{
     display: flex;
     flex-direction: column;
     grid-row: 5/6;}
+.activite_cinq:hover{
+    box-shadow: 8px 8px 8px 8px #c5c5c5;}
 
 .activite_six{
     border-radius: 20px;
@@ -353,6 +370,8 @@ a{
     display: flex;
     flex-direction: column;
     grid-row: 3/6;}
+.activite_six:hover{
+    box-shadow: 8px 8px 8px 8px #c5c5c5;}
 
 .titre_activite{
     margin: 20px;}

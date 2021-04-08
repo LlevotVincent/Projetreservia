@@ -1,6 +1,6 @@
 /* Style du site Reservia smartphone*/
 
-@media screen and (max-width: 767px){
+@media screen and (min-width: 576px) and (max-width: 767px){
 
 body{
     width: 80%;
