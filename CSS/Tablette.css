@@ -27,18 +27,21 @@ header {
 .menu_hebergement{
     display: grid;
     width: 50%;
+    font-size: 15px;
     list-style: none;
     align-items: center;
     justify-content: center;}
 .menu_activites{
     display: grid;
     width: 50%;
+    font-size: 15px;
     list-style: none;
     align-items: center;
     justify-content: center;}
 .inscription{
     justify-content: flex-end;
     padding-right: 40px;
+    font-size: 15px;
     color:royalblue;
     font-weight: 600}
 .menu a:hover{

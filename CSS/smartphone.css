@@ -1,5 +1,4 @@
-@media screen and (max-width: 767px){
-
+@media screen and (min-width: 576px) and (max-width: 767px){
 
 body{
     margin: auto;
@@ -26,24 +25,31 @@ header {
 .menu_hebergement{
     display: grid;
     width: 50%;
+    font-size: 15px;
     list-style: none;
     align-items: center;
     justify-content: center;}
 .menu_activites{
     display: grid;
     width: 50%;
+    font-size: 15px;
     list-style: none;
     align-items: center;
     justify-content: center;}
 .inscription{
     justify-content: flex-end;
-    padding-right: 40px;
+    font-size: 15px;
+    padding-right: 10px;
     color:royalblue;
     font-weight: 600}
 .menu a:hover{
     color:royalblue;
     border-bottom: solid 4px royalblue;
     border-top: none;}
+.titre_header{
+    font-size: 22px;
+    font-weight: bolder;
+    padding-top: 20px;}
 /*Fin section header*/
 
 /*barre de recherche*/
