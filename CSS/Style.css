@@ -34,18 +34,20 @@ a{
 .menu_hebergement{
     display: flex;
     align-items: center;
+    justify-content: center;
     color: royalblue;
+    width: 100px;
     height: 100px;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bolder;}
 .menu_activites{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100px;
-    padding-left: 60px;
-    padding-right: 40px;
+    width: 100px;
     color: royalblue;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bolder;}
 .inscription{
     display: flex;
@@ -54,12 +56,12 @@ a{
     margin-right: 20px;
     margin-left: 20px;
     font-weight: bolder;
-    font-size: 20px;}
+    font-size: 12px;}
 .menu a:hover{
     color:royalblue;
     border-top: solid 4px royalblue;}
 .titre_header{
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bolder;}
 .sous-titre_header{
     font-size: 15px;}
