@@ -1,4 +1,7 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 767px){
+
+body{
+    width: 100%;}
 
 /*section header*/
 header {
