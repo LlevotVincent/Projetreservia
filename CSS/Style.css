@@ -6,6 +6,8 @@
    }
 
 body{
+    margin: auto;
+    width: 80%;
     max-width: 1440px;
     font-family: raleway, sans-serif;}
 
