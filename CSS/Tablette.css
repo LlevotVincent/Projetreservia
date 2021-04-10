@@ -12,35 +12,35 @@ header {
     grid-template-areas: "logo inscription"  
     "menu menu";}
 
-.logo{
+#logo{
     height: 60%;}
-.menu{
+#menu{
     display: flex;
     list-style: none;
     align-items: center;
     justify-content: space-around;
     grid-area: menu;}
-.menu_hebergement{
+#menu_hebergement{
     display: grid;
     width: 50%;
     font-size: 15px;
     list-style: none;
     align-items: center;
     justify-content: center;}
-.menu_activites{
+#menu_activites{
     display: grid;
     width: 50%;
     font-size: 15px;
     list-style: none;
     align-items: center;
     justify-content: center;}
-.inscription{
+#inscription{
     justify-content: flex-end;
     padding-right: 40px;
     font-size: 15px;
     color:royalblue;
     font-weight: 600}
-.menu a:hover{
+#menu a:hover{
     color:royalblue;
     border-bottom: solid 4px royalblue;
     border-top: none;}
@@ -59,7 +59,7 @@ header {
     width: 50px;}
 
 /*zone de filtre*/
-.section_filtre{
+#section_filtre{
     align-items: flex-start;}
 .ensemble_filtre{
     display: flex;
