@@ -71,6 +71,9 @@ header {
     margin-right: 150px;}
 
 /*hébergement a Marseille*/
+.titre_section{
+    padding: 0px;
+}
 #hebergements{
     border-radius: 30px;
     display: flex;
@@ -153,19 +156,21 @@ header {
     height: 200px;}
 
 /*Footer*/
-footer{
+#footer_page{
     width: auto;
     height: auto;
     background-color: #F2F2F2;
     flex-direction: column;
     margin-top: 20px;}
-.a_propos{
-    padding-left: 30px;
-    list-style: none;}
-.nos_hebergements{
-    padding-left: 30px;
-    list-style: none;}
-.assistance{
-    padding-left: 30px;
-    list-style: none;}
+
+#footer_text{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 30px;
+}
+.bloc_footer{
+    width: auto;
+margin: 0px;}
+
 }

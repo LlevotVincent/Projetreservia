@@ -6,10 +6,15 @@
    }
 
 body{
-    margin: auto;
+    margin: 0px;
+}
+
+#bloc_page{
     width: 90%;
+    margin: auto;
     max-width: 1440px;
-    font-family: raleway, sans-serif;}
+    font-family: raleway, sans-serif;
+}
 
 /*en tête*/
 header{
@@ -379,20 +384,26 @@ a{
 .titre_activite{
     margin: 20px;}
 
-footer{
+#footer_page{
     width: auto;
     height: auto;
     display: flex;
+    justify-content: center;
     background-color: #F2F2F2;
-    margin-top: 20px;}
+    margin-top: 20px;
+    font-family: raleway, sans-serif;
+    }
+    
+
+#footer_text{
+    display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: 0px;
+    padding: 2rem 2rem;
+    
+}
 
 .bloc_footer{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    padding-right: 150px;}
-
-.bloc_footer p{
-    margin: 10px}
-
-/*fin en tête*/
+    width: 25%;
+    margin-left: 30px;}

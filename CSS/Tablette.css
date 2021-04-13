@@ -1,6 +1,6 @@
 /* Style du site Reservia tablette*/
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 1200px){
 
 /*section header*/
 header {
@@ -153,19 +153,15 @@ header {
     height: 250px;}
 
 /*Footer*/
-footer{
+#footer_page{
     width: auto;
     height: auto;
     background-color: #F2F2F2;
     flex-direction: column;
     margin-top: 20px;}
-.a_propos{
-    padding-left: 30px;
-    list-style: none;}
-.nos_hebergements{
-    padding-left: 30px;
-    list-style: none;}
-.assistance{
-    padding-left: 30px;
-    list-style: none;}
+
+
+
+
+
 }
