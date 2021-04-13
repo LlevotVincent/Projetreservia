@@ -160,8 +160,8 @@ header {
     flex-direction: column;
     margin-top: 20px;}
 
-
-
-
-
+#footer_text{
+    display: flex;
+    width: auto;
+    padding: 30px;}
 }
