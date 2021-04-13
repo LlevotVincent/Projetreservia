@@ -12,8 +12,6 @@ header {
     grid-template-areas: "logo inscription"  
     "menu menu";}
 
-#logo{
-    height: 60%;}
 #menu{
     display: flex;
     list-style: none;
